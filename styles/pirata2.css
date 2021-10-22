@@ -1,0 +1,25 @@
+@font-face {
+    font-family: caligrafia;
+    src: url("../fonts/Adine\ Kirnberg.ttf");
+}
+body {font-family: caligrafia;
+      font-size: 1.5em;
+      margin:0;
+      padding:0;}
+#container {background-image: url("../images/fondo-2.jpg");
+            /* cover "estira" la imagen de fondo */
+            background-size:cover;
+            /* adonde se fija la foto (recorta por el otro extemo) */
+            background-position: left;
+            width:90%;
+            margin:auto;
+            padding:20px;
+            box-shadow: 5vw 5vw 100px #65744f,
+                        -5vw 5vw 100px #65744f,
+                        5vw -5vw 100px #65744f,
+                        -5vw -5vw 100px #65744f;
+            }
+#poema {background-color:rgba(255, 255, 255, 0.603);
+        border-radius: 0 80px 80px 80px;
+        width:250px;
+        padding:20px;}
